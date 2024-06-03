@@ -9,4 +9,11 @@ Before(async function () {
         execSync('docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest');
         isBeforeAllExecuted = true;
     }
+
+    this.operations = [
+        "add",
+        "subtract",
+        "multiply",
+        "divide"
+    ]
 });
