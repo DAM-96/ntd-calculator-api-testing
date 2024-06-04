@@ -11,10 +11,11 @@ Before(async function () {
         "divide"
     ];
 
+    this.dynamicInputs = []
+
     if(!this.isDockerImageValidated) {
         console.log('Performing initial Docker setup...');
-        execSync('docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest');
+        execSync(`docker pull ${this.dockerImage}`);
         this.isDockerImageValidated = true;
     }
-
 });
