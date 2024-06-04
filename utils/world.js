@@ -6,8 +6,14 @@ class CustomWorld{
         this.secondInput = 0;
         this.inputList = [];
         this.operation = "";
-        this.result = 0;
+        this.result = []; // Array of objects with the following properties {value: float, num1: int, num2: int, command: string}
         this.error = "";
+        this.validOperations = [
+            "add",
+            "subtract",
+            "multiply",
+            "divide"
+        ];
     }
 
     //Sets simple, single use, non dynamic inputs
@@ -52,18 +58,6 @@ class CustomWorld{
                 break;
         }
         return randomNumber;
-    }
-
-    setOperation(operation){
-        this.operation = operation;
-    }
-
-    setResult(result){
-        this.result = result;
-    }
-
-    setError(error){
-        this.error = error;
     }
 }
 
