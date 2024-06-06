@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1067844605
+              "duration": 1061866420
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 431731
+              "duration": 362732
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17380803711
+              "duration": 17169794809
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 647537
+              "duration": 3612191
             }
           }
         ],
@@ -77,7 +77,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1058373891
+              "duration": 1397278885
             }
           },
           {
@@ -90,7 +90,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 117777
+              "duration": 117969
             }
           },
           {
@@ -103,7 +103,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17221137628
+              "duration": 17453903127
             }
           },
           {
@@ -116,7 +116,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 127590
+              "duration": 119336
             }
           }
         ],
@@ -140,7 +140,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1057555290
+              "duration": 1105799208
             }
           },
           {
@@ -153,7 +153,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 515388
+              "duration": 394503
             }
           },
           {
@@ -166,7 +166,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17216462549
+              "duration": 17776778040
             }
           },
           {
@@ -179,7 +179,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 132238
+              "duration": 145345
             }
           }
         ],
@@ -203,7 +203,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1124099258
+              "duration": 1126167942
             }
           },
           {
@@ -216,7 +216,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 103513
+              "duration": 100300
             }
           },
           {
@@ -229,7 +229,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17277565066
+              "duration": 17545513709
             }
           },
           {
@@ -242,7 +242,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 402510
+              "duration": 385213
             }
           }
         ],
@@ -269,7 +269,7 @@
         "description": "",
         "id": "precision;adding-small-numbers",
         "keyword": "Scenario",
-        "line": 6,
+        "line": 9,
         "name": "Adding small numbers",
         "steps": [
           {
@@ -277,7 +277,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1160256102
+              "duration": 1097465551
             }
           },
           {
@@ -290,33 +290,33 @@
             },
             "result": {
               "status": "passed",
-              "duration": 135023
+              "duration": 103694
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
+            "line": 10,
             "name": "I \"add\" small numbers",
             "match": {
               "location": "step_definitions/calculatorSteps.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 17308549374
+              "duration": 16870897166
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
+            "line": 11,
             "name": "the result should be accurate to 16 digits",
             "match": {
               "location": "step_definitions/calculatorSteps.js:150"
             },
             "result": {
               "status": "passed",
-              "duration": 698303
+              "duration": 404028
             }
           }
         ],
@@ -327,7 +327,7 @@
         "description": "",
         "id": "precision;adding-large-and-small-numbers",
         "keyword": "Scenario",
-        "line": 11,
+        "line": 13,
         "name": "Adding large and small numbers",
         "steps": [
           {
@@ -335,46 +335,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1109138457
+              "duration": 1113692958
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 12,
+            "line": 7,
             "name": "I have the calculator application",
             "match": {
               "location": "step_definitions/calculatorSteps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 143895
+              "duration": 116094
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 13,
+            "line": 14,
             "name": "I \"add\" combined numbers",
             "match": {
               "location": "step_definitions/calculatorSteps.js:67"
             },
             "result": {
               "status": "passed",
-              "duration": 17475279402
+              "duration": 17190224452
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 14,
+            "line": 15,
             "name": "the result should be accurate to 16 digits",
             "match": {
               "location": "step_definitions/calculatorSteps.js:150"
             },
             "result": {
               "status": "passed",
-              "duration": 119493
+              "duration": 117356
             }
           }
         ],
@@ -385,7 +385,7 @@
         "description": "",
         "id": "precision;adding-scientific-notation-numbers",
         "keyword": "Scenario",
-        "line": 16,
+        "line": 17,
         "name": "Adding scientific notation numbers",
         "steps": [
           {
@@ -393,20 +393,20 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1061904260
+              "duration": 1099440665
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 17,
+            "line": 7,
             "name": "I have the calculator application",
             "match": {
               "location": "step_definitions/calculatorSteps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 104232
+              "duration": 160300
             }
           },
           {
@@ -419,7 +419,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 18293285370
+              "duration": 17395848646
             }
           },
           {
@@ -432,7 +432,7 @@
             },
             "result": {
               "status": "pending",
-              "duration": 241970
+              "duration": 231316
             }
           },
           {

@@ -5,7 +5,7 @@
   "description": "This  is a test automation excercise which uses cucumber to execute API calls to a docker calculator service for testing.",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "cucumber-js && node ./utils/reporter.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "cucumber": "^6.0.7"
   },
   "dependencies": {
-    "@cucumber/cucumber": "^10.8.0"
+    "@cucumber/cucumber": "^10.8.0",
+    "cucumber-html-reporter": "^7.1.1"
   }
 }
