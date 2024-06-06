@@ -116,6 +116,12 @@ When("I {string} scientific numbers",  function(command){
     })
 });
 
+When('the numbers are at least {int} digits appart', function (int) {
+    // When('the numbers are at least {float} digits appart', function (float) {
+      // Write code here that turns the phrase above into concrete actions
+    return 'pending';
+});
+
 
 //-------------------- THEN --------------------
 Then('the result should be correct', function(){
