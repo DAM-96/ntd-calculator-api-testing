@@ -6,23 +6,23 @@ Feature: Operations
 @operations
 Scenario: Addition of two numbers
     Given I have the calculator application
-    When I add two numbers
+    When I "add" two numbers
     Then the result should be correct
 
 @operations
 Scenario: Subtraction of two numbers
     Given I have the calculator application
-    When I subtract two numbers
+    When I "subtract" two numbers
     Then the result should be correct
 
 @operations
 Scenario: Multiplication of two numbers
     Given I have the calculator application
-    When I multiply two numbers
+    When I "multiply" two numbers
     Then the result should be correct
 
 @operations
 Scenario: Division of two numbers
     Given I have the calculator application
-    When I divide two numbers
+    When I "divide" two numbers
     Then the result should be correct

@@ -5,17 +5,17 @@ Feature: Precision
 
 Scenario: Adding small numbers
     Given I have the calculator application
-    When I add small numbers
+    When I "add" small numbers
     Then the result should be accurate to 16 digits
 
 Scenario: Adding large and small numbers
     Given I have the calculator application
-    When I add combined numbers
+    When I "add" combined numbers
     Then the result should be accurate to 16 digits
 
 Scenario: Adding scientific notation numbers
     Given I have the calculator application
-    When I add scientific numbers
+    When I "add" scientific numbers
     And the numbers are at least 15 digits appart
     Then the result should be accurate to 16 digits
     And the result should be displayed in scientific notation

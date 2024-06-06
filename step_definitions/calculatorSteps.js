@@ -6,7 +6,7 @@ const { execSync } = require('child_process');
 //-------------------- GIVEN --------------------
 
 Given('I have the calculator application', function() {
-    expect(this.isDockerImageValidated).to.be.true;
+    assert.strictEqual(this.isDockerImageValidated, true);
 });
 
 
@@ -20,7 +20,7 @@ When("I {string} two numbers",  function(command){
         const num2 = inputs.num2;
 
         try {
-            const output = execSync(`sudo docker run ${self.dockerImage} ${command} ${num1} ${num2}`);
+            const output = execSync(`docker run ${self.dockerImage} ${command} ${num1} ${num2}`);
             return {
                 value: parseFloat(output), 
                 num1: num1, 
@@ -46,7 +46,7 @@ When("I {string} small numbers",  function(command){
         const num2 = inputs.num2;
 
         try {
-            const output = execSync(`sudo docker run ${self.dockerImage} ${command} ${num1} ${num2}`);
+            const output = execSync(`docker run ${self.dockerImage} ${command} ${num1} ${num2}`);
             return {
                 value: parseFloat(output), 
                 num1: num1, 
@@ -72,7 +72,7 @@ When("I {string} combined numbers",  function(command){
         const num2 = inputs.num2;
 
         try {
-            const output = execSync(`sudo docker run ${self.dockerImage} ${command} ${num1} ${num2}`);
+            const output = execSync(`docker run ${self.dockerImage} ${command} ${num1} ${num2}`);
             return {
                 value: parseFloat(output), 
                 num1: num1, 
@@ -98,7 +98,7 @@ When("I {string} scientific numbers",  function(command){
         const num2 = inputs.num2;
 
         try {
-            const output = execSync(`sudo docker run ${self.dockerImage} ${command} ${num1} ${num2}`);
+            const output = execSync(`docker run ${self.dockerImage} ${command} ${num1} ${num2}`);
             return {
                 value: parseFloat(output), 
                 num1: num1, 

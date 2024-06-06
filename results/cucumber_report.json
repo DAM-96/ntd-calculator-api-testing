@@ -13,9 +13,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 1203835066,
-              "error_message": "Error: Command failed: sudo docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest\n    at checkExecSyncError (node:child_process:890:11)\n    at execSync (node:child_process:962:15)\n    at CustomWorld.<anonymous> (/home/ubuntu/ntd-calculator-api-testing/utils/hooks.js:12:9)"
+              "status": "passed",
+              "duration": 7313835950
             }
           },
           {
@@ -27,18 +26,21 @@
               "location": "step_definitions/calculatorSteps.js:8"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 352042
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 9,
-            "name": "I add two numbers",
+            "name": "I \"add\" two numbers",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:15"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 19624239018
             }
           },
           {
@@ -50,8 +52,8 @@
               "location": "step_definitions/calculatorSteps.js:121"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3465282
             }
           }
         ],
@@ -74,9 +76,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 52191276414,
-              "error_message": "Error: Command failed: sudo docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest\n    at checkExecSyncError (node:child_process:890:11)\n    at execSync (node:child_process:962:15)\n    at CustomWorld.<anonymous> (/home/ubuntu/ntd-calculator-api-testing/utils/hooks.js:12:9)"
+              "status": "passed",
+              "duration": 1140137126
             }
           },
           {
@@ -88,18 +89,21 @@
               "location": "step_definitions/calculatorSteps.js:8"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 121497
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 15,
-            "name": "I subtract two numbers",
+            "name": "I \"subtract\" two numbers",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:15"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 17643211890
             }
           },
           {
@@ -111,8 +115,8 @@
               "location": "step_definitions/calculatorSteps.js:121"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 119971
             }
           }
         ],
@@ -135,9 +139,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 53040573755,
-              "error_message": "Error: Command failed: sudo docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest\n    at checkExecSyncError (node:child_process:890:11)\n    at execSync (node:child_process:962:15)\n    at CustomWorld.<anonymous> (/home/ubuntu/ntd-calculator-api-testing/utils/hooks.js:12:9)"
+              "status": "passed",
+              "duration": 1095030826
             }
           },
           {
@@ -149,18 +152,21 @@
               "location": "step_definitions/calculatorSteps.js:8"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 331464
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 21,
-            "name": "I multiply two numbers",
+            "name": "I \"multiply\" two numbers",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:15"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 17494384263
             }
           },
           {
@@ -172,8 +178,8 @@
               "location": "step_definitions/calculatorSteps.js:121"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 143498
             }
           }
         ],
@@ -196,9 +202,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 51862815577,
-              "error_message": "Error: Command failed: sudo docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest\n    at checkExecSyncError (node:child_process:890:11)\n    at execSync (node:child_process:962:15)\n    at CustomWorld.<anonymous> (/home/ubuntu/ntd-calculator-api-testing/utils/hooks.js:12:9)"
+              "status": "passed",
+              "duration": 1081459317
             }
           },
           {
@@ -210,18 +215,21 @@
               "location": "step_definitions/calculatorSteps.js:8"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 100335
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 27,
-            "name": "I divide two numbers",
+            "name": "I \"divide\" two numbers",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:15"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 17393958180
             }
           },
           {
@@ -233,8 +241,8 @@
               "location": "step_definitions/calculatorSteps.js:121"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1627204
             }
           }
         ],
@@ -268,9 +276,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 49770809422,
-              "error_message": "Error: Command failed: sudo docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest\n    at checkExecSyncError (node:child_process:890:11)\n    at execSync (node:child_process:962:15)\n    at CustomWorld.<anonymous> (/home/ubuntu/ntd-calculator-api-testing/utils/hooks.js:12:9)"
+              "status": "passed",
+              "duration": 1071039319
             }
           },
           {
@@ -282,18 +289,21 @@
               "location": "step_definitions/calculatorSteps.js:8"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 668109
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 8,
-            "name": "I add small numbers",
+            "name": "I \"add\" small numbers",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:41"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 17660931334
             }
           },
           {
@@ -305,8 +315,8 @@
               "location": "step_definitions/calculatorSteps.js:144"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4241472
             }
           }
         ],
@@ -324,9 +334,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 48438479794,
-              "error_message": "Error: Command failed: sudo docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest\n    at checkExecSyncError (node:child_process:890:11)\n    at execSync (node:child_process:962:15)\n    at CustomWorld.<anonymous> (/home/ubuntu/ntd-calculator-api-testing/utils/hooks.js:12:9)"
+              "status": "passed",
+              "duration": 1198347857
             }
           },
           {
@@ -338,18 +347,21 @@
               "location": "step_definitions/calculatorSteps.js:8"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 120424
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 13,
-            "name": "I add combined numbers",
+            "name": "I \"add\" combined numbers",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:67"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 17584493718
             }
           },
           {
@@ -361,8 +373,8 @@
               "location": "step_definitions/calculatorSteps.js:144"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 124307
             }
           }
         ],
@@ -380,9 +392,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 49337164223,
-              "error_message": "Error: Command failed: sudo docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest\n    at checkExecSyncError (node:child_process:890:11)\n    at execSync (node:child_process:962:15)\n    at CustomWorld.<anonymous> (/home/ubuntu/ntd-calculator-api-testing/utils/hooks.js:12:9)"
+              "status": "passed",
+              "duration": 1090336235
             }
           },
           {
@@ -394,18 +405,21 @@
               "location": "step_definitions/calculatorSteps.js:8"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 105376
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 18,
-            "name": "I add scientific numbers",
+            "name": "I \"add\" scientific numbers",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:93"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 17061637022
             }
           },
           {
