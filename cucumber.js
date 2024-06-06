@@ -5,9 +5,9 @@ module.exports = {
         require: [
             'step_definitions/*.js',
             'utils/world.js',
-            'utils/hooks.js'
+            'utils/hooks.js',
+            'features'
         ],
-        world: CustomWorld,
         format: ['progress', 'json:results/cucumber_report.json']
     }
 }

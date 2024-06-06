@@ -1,6 +1,7 @@
 {
   "name": "ntd-calculator-api-testing",
   "version": "1.0.0",
+  "type": "commonjs",
   "description": "This  is a test automation excercise which uses cucumber to execute API calls to a docker calculator service for testing.",
   "main": "index.js",
   "scripts": {
@@ -13,5 +14,8 @@
     "chai": "^5.1.1",
     "child_process": "^1.0.2",
     "cucumber": "^6.0.7"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.8.0"
   }
 }

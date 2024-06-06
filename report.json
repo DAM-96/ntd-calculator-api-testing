@@ -1,0 +1,459 @@
+[
+  {
+    "description": "    As a user\n    I want to execute arithmetic operations  through Docker calls\n    So that I can get the result of the operation in the CLI",
+    "elements": [
+      {
+        "description": "",
+        "id": "operations;addition-of-two-numbers",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Addition of two numbers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1203835066,
+              "error_message": "Error: Command failed: sudo docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest\n    at checkExecSyncError (node:child_process:890:11)\n    at execSync (node:child_process:962:15)\n    at CustomWorld.<anonymous> (/home/ubuntu/ntd-calculator-api-testing/utils/hooks.js:12:9)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I have the calculator application",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I add two numbers",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the result should be correct",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:121"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@operations",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "operations;subtraction-of-two-numbers",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Subtraction of two numbers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 52191276414,
+              "error_message": "Error: Command failed: sudo docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest\n    at checkExecSyncError (node:child_process:890:11)\n    at execSync (node:child_process:962:15)\n    at CustomWorld.<anonymous> (/home/ubuntu/ntd-calculator-api-testing/utils/hooks.js:12:9)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I have the calculator application",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I subtract two numbers",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the result should be correct",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:121"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@operations",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "operations;multiplication-of-two-numbers",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Multiplication of two numbers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 53040573755,
+              "error_message": "Error: Command failed: sudo docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest\n    at checkExecSyncError (node:child_process:890:11)\n    at execSync (node:child_process:962:15)\n    at CustomWorld.<anonymous> (/home/ubuntu/ntd-calculator-api-testing/utils/hooks.js:12:9)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I have the calculator application",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I multiply two numbers",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the result should be correct",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:121"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@operations",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "operations;division-of-two-numbers",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Division of two numbers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 51862815577,
+              "error_message": "Error: Command failed: sudo docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest\n    at checkExecSyncError (node:child_process:890:11)\n    at execSync (node:child_process:962:15)\n    at CustomWorld.<anonymous> (/home/ubuntu/ntd-calculator-api-testing/utils/hooks.js:12:9)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I have the calculator application",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I divide two numbers",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "the result should be correct",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:121"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@operations",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "operations",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Operations",
+    "tags": [],
+    "uri": "features/Operations.feature"
+  },
+  {
+    "description": "    As a user\n    I want to perform arithmetic operations with numbers with up to 16 digits\n    So that I can get a correct result with a precission of up to 16 digits",
+    "elements": [
+      {
+        "description": "",
+        "id": "precision;adding-small-numbers",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Adding small numbers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 49770809422,
+              "error_message": "Error: Command failed: sudo docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest\n    at checkExecSyncError (node:child_process:890:11)\n    at execSync (node:child_process:962:15)\n    at CustomWorld.<anonymous> (/home/ubuntu/ntd-calculator-api-testing/utils/hooks.js:12:9)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I have the calculator application",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add small numbers",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the result should be accurate to 16 digits",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:144"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "precision;adding-large-and-small-numbers",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Adding large and small numbers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 48438479794,
+              "error_message": "Error: Command failed: sudo docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest\n    at checkExecSyncError (node:child_process:890:11)\n    at execSync (node:child_process:962:15)\n    at CustomWorld.<anonymous> (/home/ubuntu/ntd-calculator-api-testing/utils/hooks.js:12:9)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I have the calculator application",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I add combined numbers",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the result should be accurate to 16 digits",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:144"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "precision;adding-scientific-notation-numbers",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Adding scientific notation numbers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 49337164223,
+              "error_message": "Error: Command failed: sudo docker pull public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest\n    at checkExecSyncError (node:child_process:890:11)\n    at execSync (node:child_process:962:15)\n    at CustomWorld.<anonymous> (/home/ubuntu/ntd-calculator-api-testing/utils/hooks.js:12:9)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I have the calculator application",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I add scientific numbers",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the numbers are at least 15 digits appart",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the result should be accurate to 16 digits",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:144"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the result should be displayed in scientific notation",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:167"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "precision",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Precision",
+    "tags": [],
+    "uri": "features/Precision.feature"
+  }
+]

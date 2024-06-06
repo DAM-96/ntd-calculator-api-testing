@@ -1,5 +1,8 @@
-class CustomWorld{
-    constructor(){
+const { World } = require('@cucumber/cucumber')
+
+class CustomWorld extends World{
+    constructor(options){
+        super(options);
         this.isDockerImageValidated = false;
         this.dockerImage = "public.ecr.aws/l4q9w4c5/loanpro-calculator-cli:latest";
         this.firstInput = 0;
@@ -61,4 +64,4 @@ class CustomWorld{
     }
 }
 
-module.exports = CustomWorld
+module.exports = { CustomWorld }
