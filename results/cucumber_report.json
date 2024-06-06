@@ -6,7 +6,7 @@
         "description": "",
         "id": "operations;addition-of-two-numbers",
         "keyword": "Scenario",
-        "line": 7,
+        "line": 10,
         "name": "Addition of two numbers",
         "steps": [
           {
@@ -14,53 +14,53 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7313835950
+              "duration": 1067844605
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 8,
+            "line": 7,
             "name": "I have the calculator application",
             "match": {
               "location": "step_definitions/calculatorSteps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 352042
+              "duration": 431731
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 9,
+            "line": 11,
             "name": "I \"add\" two numbers",
             "match": {
               "location": "step_definitions/calculatorSteps.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 19624239018
+              "duration": 17380803711
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
+            "line": 12,
             "name": "the result should be correct",
             "match": {
-              "location": "step_definitions/calculatorSteps.js:121"
+              "location": "step_definitions/calculatorSteps.js:127"
             },
             "result": {
               "status": "passed",
-              "duration": 3465282
+              "duration": 647537
             }
           }
         ],
         "tags": [
           {
             "name": "@operations",
-            "line": 6
+            "line": 9
           }
         ],
         "type": "scenario"
@@ -69,7 +69,7 @@
         "description": "",
         "id": "operations;subtraction-of-two-numbers",
         "keyword": "Scenario",
-        "line": 13,
+        "line": 15,
         "name": "Subtraction of two numbers",
         "steps": [
           {
@@ -77,53 +77,53 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1140137126
+              "duration": 1058373891
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 14,
+            "line": 7,
             "name": "I have the calculator application",
             "match": {
               "location": "step_definitions/calculatorSteps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 121497
+              "duration": 117777
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 15,
+            "line": 16,
             "name": "I \"subtract\" two numbers",
             "match": {
               "location": "step_definitions/calculatorSteps.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 17643211890
+              "duration": 17221137628
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 16,
+            "line": 17,
             "name": "the result should be correct",
             "match": {
-              "location": "step_definitions/calculatorSteps.js:121"
+              "location": "step_definitions/calculatorSteps.js:127"
             },
             "result": {
               "status": "passed",
-              "duration": 119971
+              "duration": 127590
             }
           }
         ],
         "tags": [
           {
             "name": "@operations",
-            "line": 12
+            "line": 14
           }
         ],
         "type": "scenario"
@@ -132,7 +132,7 @@
         "description": "",
         "id": "operations;multiplication-of-two-numbers",
         "keyword": "Scenario",
-        "line": 19,
+        "line": 20,
         "name": "Multiplication of two numbers",
         "steps": [
           {
@@ -140,20 +140,20 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1095030826
+              "duration": 1057555290
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 20,
+            "line": 7,
             "name": "I have the calculator application",
             "match": {
               "location": "step_definitions/calculatorSteps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 331464
+              "duration": 515388
             }
           },
           {
@@ -166,7 +166,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17494384263
+              "duration": 17216462549
             }
           },
           {
@@ -175,18 +175,18 @@
             "line": 22,
             "name": "the result should be correct",
             "match": {
-              "location": "step_definitions/calculatorSteps.js:121"
+              "location": "step_definitions/calculatorSteps.js:127"
             },
             "result": {
               "status": "passed",
-              "duration": 143498
+              "duration": 132238
             }
           }
         ],
         "tags": [
           {
             "name": "@operations",
-            "line": 18
+            "line": 19
           }
         ],
         "type": "scenario"
@@ -203,46 +203,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1081459317
+              "duration": 1124099258
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 26,
+            "line": 7,
             "name": "I have the calculator application",
             "match": {
               "location": "step_definitions/calculatorSteps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 100335
+              "duration": 103513
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 27,
+            "line": 26,
             "name": "I \"divide\" two numbers",
             "match": {
               "location": "step_definitions/calculatorSteps.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 17393958180
+              "duration": 17277565066
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 28,
+            "line": 27,
             "name": "the result should be correct",
             "match": {
-              "location": "step_definitions/calculatorSteps.js:121"
+              "location": "step_definitions/calculatorSteps.js:127"
             },
             "result": {
               "status": "passed",
-              "duration": 1627204
+              "duration": 402510
             }
           }
         ],
@@ -277,7 +277,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1071039319
+              "duration": 1160256102
             }
           },
           {
@@ -290,7 +290,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 668109
+              "duration": 135023
             }
           },
           {
@@ -303,7 +303,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17660931334
+              "duration": 17308549374
             }
           },
           {
@@ -312,11 +312,11 @@
             "line": 9,
             "name": "the result should be accurate to 16 digits",
             "match": {
-              "location": "step_definitions/calculatorSteps.js:144"
+              "location": "step_definitions/calculatorSteps.js:150"
             },
             "result": {
               "status": "passed",
-              "duration": 4241472
+              "duration": 698303
             }
           }
         ],
@@ -335,7 +335,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1198347857
+              "duration": 1109138457
             }
           },
           {
@@ -348,7 +348,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 120424
+              "duration": 143895
             }
           },
           {
@@ -361,7 +361,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17584493718
+              "duration": 17475279402
             }
           },
           {
@@ -370,11 +370,11 @@
             "line": 14,
             "name": "the result should be accurate to 16 digits",
             "match": {
-              "location": "step_definitions/calculatorSteps.js:144"
+              "location": "step_definitions/calculatorSteps.js:150"
             },
             "result": {
               "status": "passed",
-              "duration": 124307
+              "duration": 119493
             }
           }
         ],
@@ -393,7 +393,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1090336235
+              "duration": 1061904260
             }
           },
           {
@@ -406,7 +406,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 105376
+              "duration": 104232
             }
           },
           {
@@ -419,7 +419,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17061637022
+              "duration": 18293285370
             }
           },
           {
@@ -427,9 +427,12 @@
             "keyword": "And ",
             "line": 19,
             "name": "the numbers are at least 15 digits appart",
+            "match": {
+              "location": "step_definitions/calculatorSteps.js:119"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "pending",
+              "duration": 241970
             }
           },
           {
@@ -438,7 +441,7 @@
             "line": 20,
             "name": "the result should be accurate to 16 digits",
             "match": {
-              "location": "step_definitions/calculatorSteps.js:144"
+              "location": "step_definitions/calculatorSteps.js:150"
             },
             "result": {
               "status": "skipped",
@@ -451,7 +454,7 @@
             "line": 21,
             "name": "the result should be displayed in scientific notation",
             "match": {
-              "location": "step_definitions/calculatorSteps.js:167"
+              "location": "step_definitions/calculatorSteps.js:173"
             },
             "result": {
               "status": "skipped",
