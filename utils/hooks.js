@@ -2,13 +2,11 @@ const { Before, setWorldConstructor } = require('@cucumber/cucumber');
 const { execSync } = require('child_process');
 const { CustomWorld } = require('./world')
 
-setWorldConstructor( CustomWorld )
+setWorldConstructor( CustomWorld );
 
 Before(async function () {
-    this.isDockerImageValidated = false;
-
     if(!this.isDockerImageValidated) {
-        console.log('Performing initial Docker setup...');
+        console.log('\nPerforming initial Docker setup...');
         execSync(`sudo docker pull ${this.dockerImage}`);
         this.isDockerImageValidated = true;
     }

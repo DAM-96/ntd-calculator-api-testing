@@ -27,6 +27,7 @@ function createReport(){
     const outputPath = path.resolve(__dirname, relativeOutputPath);
     options.jsonFile = sourcePath;
     options.output = outputPath;
+    console.log('\nGenerating report...');
     reporter.generate(options);
 }
 

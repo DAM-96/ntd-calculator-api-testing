@@ -6,22 +6,22 @@ Feature: Operations
 Background:
     Given I have the calculator application
 
-@operations
+@operations @addition
 Scenario: Addition of two numbers
     When I "add" two numbers
     Then the result should be correct
 
-@operations
+@operations @subtraction
 Scenario: Subtraction of two numbers
     When I "subtract" two numbers
     Then the result should be correct
 
-@operations
+@operations @mutliplication
 Scenario: Multiplication of two numbers
     When I "multiply" two numbers
     Then the result should be correct
 
-@operations
+@operations @division
 Scenario: Division of two numbers
     When I "divide" two numbers
     Then the result should be correct
