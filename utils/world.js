@@ -17,6 +17,7 @@ class CustomWorld extends World{
             "multiply",
             "divide"
         ];
+        this.testData = {};
     }
 
     //Sets simple, single use, non dynamic inputs
@@ -61,6 +62,19 @@ class CustomWorld extends World{
                 break;
         }
         return randomNumber;
+    }
+
+    setTestData(key, value){
+        this.testData[key] = value;
+    }
+
+
+    getTestData(){
+        return this.testData;
+    }
+
+    attachTestData(){
+        this.attach(JSON.stringify(this.getTestData()),'application/json')
     }
 }
 
